@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['crop', 'weed']
+
+roboflow:
+  workspace: hellooooo
+  project: tobacco-js5vk
+  version: 8
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/hellooooo/tobacco-js5vk/dataset/8
